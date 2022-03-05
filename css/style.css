@@ -1,0 +1,33 @@
+header{
+    background-color: lightseagreen;
+    text-align: center;
+}
+h1{
+    background-color: grey;
+    margin-bottom: 100px;
+    font-family: 'Pacifico', cursive;
+}
+.semititulo{
+    font-weight: bold;
+    font-style: italic;
+}
+.titulo{
+    color: #005677;
+}
+h2{
+    background-color: grey;
+}
+#pepe{
+    display: inline;
+}
+.conEspacio{
+    margin-left: 80px;;
+}
+.footerRedes{
+    display: inline;
+    height: 30px;
+}
+footer{
+    background-color: beige;
+    margin-top: 80px;
+}
