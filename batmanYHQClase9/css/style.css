@@ -1,0 +1,43 @@
+header p{
+    background-color: #1CD1B0;
+}
+h1{
+    background-color: #00669F;
+    padding: 20px;
+    margin: 0px;
+}
+div{
+    display: inline-block;
+    background-color: #F3F3F3;
+    border-radius: 5%;
+    margin: 80px 50px;
+    height: 530px;
+    width: 300px;
+    
+}
+div p{
+    padding: 20px;
+}
+div img{
+    margin: auto;
+    display: block;
+    height: 150px;
+
+}
+#fotoBatman{
+    border-radius: 50%;
+}
+#boton{
+    border: #00669F;
+    background-color: #00669F;
+    color: #F3F3F3;
+    margin: 10px 40px;
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+}
+footer{
+    background-color: #00669F;
+}
