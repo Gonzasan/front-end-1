@@ -1,43 +1,62 @@
-header p{
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.ad{
     background-color: #1CD1B0;
 }
 h1{
     background-color: #00669F;
-    padding: 20px;
-    margin: 0px;
 }
-div{
-    display: inline-block;
-    background-color: #F3F3F3;
+.class-container{
+    position: relative;
+
+}
+.card{
+    background-color: aliceblue;
     border-radius: 5%;
-    margin: 80px 50px;
+    display: inline-block;
+    margin: 5%;
     height: 530px;
+    position: relative;
     width: 300px;
-    
 }
-div p{
-    padding: 20px;
+.corazon{
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
-div img{
-    margin: auto;
-    display: block;
-    height: 150px;
 
+.fondo{
+    display: inline-block;
+    width: 300px;
+    overflow: hidden;
 }
-#fotoBatman{
+.fotoheroe{
     border-radius: 50%;
+    display: block;
+    height: 120px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 122px ;
 }
-#boton{
-    border: #00669F;
+p{
+    margin: 60px 20px;
+    padding: 15px;
+}
+.button{
     background-color: #00669F;
-    color: #F3F3F3;
-    margin: 10px 40px;
+    color: aliceblue;
+    display: block;
+    margin: -40px 50px;
     text-align: center;
 
+    justify-content: center;
 }
-h2{
-    text-align: center;
-}
+
 footer{
     background-color: #00669F;
+    color: aliceblue;
 }
