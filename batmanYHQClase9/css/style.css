@@ -9,15 +9,20 @@
 h1{
     background-color: #00669F;
 }
-.class-container{
-    position: relative;
 
+article{
+    
+    display:flex ;
+    justify-content: space-around;
 }
+
 .card{
+    margin-top: 2rem;
+    display: flex;
     background-color: aliceblue;
     border-radius: 5%;
+    overflow: hidden;
     display: inline-block;
-    margin: 5%;
     height: 530px;
     position: relative;
     width: 300px;
@@ -59,4 +64,22 @@ p{
 footer{
     background-color: #00669F;
     color: aliceblue;
+}
+
+@media(max-width:900px){
+    article{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (max-width : 480px) {
+    article{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
